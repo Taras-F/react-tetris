@@ -29,7 +29,7 @@ const movePlayer = dir => {
 
 const startGame = () => {
   //Reset everything
-  //!!!!!!
+  console.log('test');
   setStage(createStage());
   resetPlayer();
 }
