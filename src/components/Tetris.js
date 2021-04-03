@@ -48,9 +48,9 @@ const move = ({ keyCode }) => {
       movePlayer(-1);
     } else if (keyCode === 39) {
       movePlayer(1);
+    } else if (keyCode === 40) {
+      dropPlayer();
     }
-  } else if (keyCode === 40) {
-    dropPlayer();
   }
 }
 
